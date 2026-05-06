@@ -1,8 +1,10 @@
+#Finding day of the week
 from datetime import *
 
 # Accept date, month and year from the keyboard
 d, m, y = [int(x) for x in input("Enter a date (dd/mm/yyyy): ").split('/')]
 
+#Store them in date class object "dt"
 dt = date(y, m, d)
 
 # %w - day number and %A full name of the week day
